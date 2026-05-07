@@ -2,7 +2,7 @@ import axios from "axios";
 import { store } from "../store/store";
 
 const api = axios.create({
-  baseURL: "https://booking-system-backend-production-5c29.up.railway.app",
+  baseURL: "https://booking-system-backend-production-5c29.up.railway.app/api",
 });
 
 api.interceptors.request.use((config) => {
